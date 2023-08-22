@@ -1,0 +1,17 @@
+Fluxo do Layout
+
+ocorre conforme o modo de escrita definidoo. Por padrão começa da esquerda para a direita. de cima para baixo
+
+<span>: tag generica que nao possui nenhum estilo pré-definido/semantica. É equivalente a uma div, mas sem display block ( div tem display block)
+
+inline: respeita o fluxo da escrita, já que não inicia uma nova linha, apenas vai para o lado da outra palavra, por isso ele não respeita o box-model e por isso não é possível definir width, height e margin(top/bottom) e etc. É o estilo padrão.
+
+( toda tag nasce inline)
+
+block: inicia uma nova linha e não permite que outras propriedades fiquem do seu lado, ou seja que sejam posicionados em sua linha. Aceita todas as propriedades do box model. é o estilo inicial de elementos como: h1,h1,p, div e etc.
+
+none: remove um elemento completamente da tela
+
+inline-block: possui o mesmo comportamento do inline de continuar no fluxo e não quebrar linha nova, mas passa a receber as propriedades do box-model ( width, height e etc..)
+
+grid: pode dividir os blocos em duas colunas

@@ -1,0 +1,19 @@
+#introudao {
+    color: gold;
+}
+
+.codigo, .design {
+    color: rgb(27, 205, 205);
+}
+
+.azul {
+    color: blue;
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.grade {
+    font-size: 32px;
+}
