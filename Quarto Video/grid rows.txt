@@ -1,0 +1,17 @@
+grid-template-rows: define o tamanho das linhas.
+
+grid-template-rows: 100px auto;
+
+
+( lembrando que se não tiver linha o suficiente, ele sempre irá criar linha nova, ou seja, ele força a criação de linha)
+
+toda linha criada tem como padrão: auto
+
+ordem: [primeira linha] [segunda linha [terceira linha]]
+
+grid-auto-rows: vai mudar como ele vai definir o tamanho das linhas novas
+
+repeat():serve para caso necessite uma repetição de itens, sem precisa repetir coisas tipo: 1fr 1fr, basta colocar: repeat(4, 200px);
+
+grid-area: é um atalho para grid-columns e grid-area
+

@@ -1,0 +1,3 @@
+usar heading tags (h1, h2, p etc) é vital principalmente para leitores de tela, indexadores etc
+
+tipo, se trocar h1 por div, ele não conseguirá separar a semantica do site( titulo, paragrafo ), e irá ler um por um, o que é pessimo para leitores de tela.

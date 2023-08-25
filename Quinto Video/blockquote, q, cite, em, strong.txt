@@ -1,0 +1,11 @@
+blockquote: marca uma citação extensa e recebe um atributo cite com a fonte
+
+q: serve para citação interna.
+
+cite: serve para colocar o site da fonte da frase, é inserido dentro de blockquote ou de q
+
+além disso o <cite>também serve para citações tipo de indicações de filmes, coloca a palavra em italico, para citar obras autorais
+
+<em>: serve para dar enfase numa frase ou em conteudo
+
+strong: utilizado para marcar uma parte importante do conteudo, coloca em negrito

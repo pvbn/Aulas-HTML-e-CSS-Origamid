@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 10px 20px;
+    display: block;
+    color: #000;
+}
+
+a:hover {
+    transition: ease-in 0.3s;
+    background-color: blue;
+    color: #fff;
+}

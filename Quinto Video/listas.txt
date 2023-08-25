@@ -1,0 +1,51 @@
+listas.
+
+ul: unordered listas, listas não ordenadas
+
+li: list item, item da lista.
+
+posso ter listas dentro de listas, mais ou menos assim:
+
+<ul>
+        <li>O Senhor do Áneis</li>
+            <ul>
+                <li>A Sociedade do Anel</li>
+                <li>As duas torres</li>
+            </ul>
+        <li>O Hobbit</li>
+    </ul>
+
+OL: listas ordenadas, serve para itens organizados de forma especifica
+
+utilizxa tambem li, e pode ter dentro de lista
+
+DL: lista de definição, defition list ou description list
+
+dl: definition list 
+
+dt: termo a ser definido
+
+dd: definição do termo
+
+a ordem é essa:
+
+<dl>
+    <dt>Quais os meios de pagamentos?</dt>
+    <dd>Dinheiro e Cartão</dd>
+    <dt>Emitem certificados?</dt>
+    <dd>Sim, emitimos certificados</dd>
+</dl>
+
+CSS das listas:
+
+ul, ol, dl {
+    margin: 0;
+    padding: 0;
+}
+
+list-style: estilo da lista.
+
+url(): adiciona alguma imagem como icone da lista; 
+square: quadrado;
+none: nenhum;
+inside: pega a margem;

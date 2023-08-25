@@ -1,0 +1,17 @@
+Documentação CSS:
+
+a Documentação é o local aonde conterá informações, comandos, formas de utilização, dicas e etc
+
+melhores sites de documentação CSS:
+
+Mozilla:
+
+- Html: https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+- Css: https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+( O W3cSchools é um site criado para definir um padrão de implementação utilizado por browsers)
+
+( não é recomendado para iniciantes )
+
+W3C: w3.org

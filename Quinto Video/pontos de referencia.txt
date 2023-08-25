@@ -1,0 +1,33 @@
+landmarks: são tags que marcam pontos de referencia, introduzidas no html5, antes era utilizado o role
+
+visualmente, elas possuiem efeito simular ao das div's, elas não mudam em nada o conteudo/apresentação. ( section muda os headers ), oque irá mudar é que ele criará regioes no site para leitores de tela.
+
+<main>: marca o conteudo principal da pagina
+
+<nav>: marca um bloco de navegação
+
+<section>
+
+<article>: representa uma região do site que é autoexplicativa ( nao precisa do restante do site para fazer sentido. ). Geralmente deve conter um titulo (h's)
+
+exemplos: lista de produtos do site, um, artigo, um post na rede social e outros
+
+(
+todo atributo que começa com "aria", é um atributo de acessibilidade.
+
+aria-label: aria-label serve para dar uma etiqueta para a tag.
+
+aria-labelledby: caso o titulo exista na tela, marque o mesmo com um id e use esse atributo para criar uma relação entre eles
+)
+
+obs: oficialmente não cria um landmark, mas muitos leitores de tela utilizam ela como referencia para marcar regioes do site.
+
+<aside>: serve para marcar um conteudo extra, que não é principal do site, mas que é relacionado
+
+ex: posts relacionados
+
+no voice over, ele não cria uma landmark, mas nas especificações diz que ele é
+
+<footer>: marca o rodapé do site.
+
+<header>: serve para marcar o cabeçalho do site, marca o banner 

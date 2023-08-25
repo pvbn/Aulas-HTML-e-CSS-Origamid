@@ -1,0 +1,44 @@
+flex: é quando os filhos passam a ter um tamanho flexível e ficam um ao lado do outro.
+
+flex-wrap: wrap;
+
+Caso não caiba todos os elementos na mesma linha, utiliza-se flex-wrap, que indica se deve quebrar ou nao
+
+o alinhamento de justify-content, também funciona da mesma forma que o grid.
+
+propriedade flex:propriedade fo item flexivel
+
+flex-grow: 1;
+
+se esse elemento deve crescer para ocupar o espaço vazio. O 0 impede o crescimento, valores maiores que 0 funcionam como a unidade fr do css grid.
+
+flex-basis: 200px;
+
+por padrão o flex-basis é auto
+
+valor inicial antes de distribuir o espaço em branco.
+
+flex-shrink: 0;
+
+por padrão tem o valor de 1
+
+Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. 0 significa que ele não pode ser reduzido.
+
+flex: 1;
+
+atalho para flex-grow: 1;, flex-shrink: 1; e flex-basis:0;
+
+se tiver flex:1, não vale a pena usar justify-content
+-------------------
+
+Diferença do flex e grid
+
+É bom usar ambos no layou, para resolver diferentes problemas.
+
+O grid te dá controle de todos os eixos e o flexbox apenas no total de itens por linha.
+
+existe uma denominação chamada auto-fit ( dentro do repeat ), que só funciona se tiver um valor especifico, serve pra, enquanto der para colocar, acrescenta uma coluna nova.
+
+existe a função minmax, que é o valor minimo e o valor máximo, coloca ela no repeat.
+
+ex:repeat(auto-fit, minmax(150px, auto))

@@ -1,0 +1,21 @@
+<img> tag de imagens do html
+
+site bom para pegar imagens gratuitamente e sem direitos autorais: unsplash.com
+
+site para otimizar app: squosh.app
+
+obs: evite colocar imagem acima de 1mb, evite pois pode pesar, para otimizar o tamanho da imagem, diminua a resolução
+
+o display padrão da img é inline-block, é perceptivel pois há uma brecha branca entre as imagens, para tirar essa brecha, coloque display:block;
+
+src: atributo que define o caminho da imagem
+
+alt: texto alternativo que será lido por leitores de tela ( acessibildade ), robôs e que irá aparecer caso a imagem não carregue.
+
+max-width: 100%; : geralmente definimos um width máximo de 100% para a imagem, assim ela não cresce além do elemento pai, o max-width adapta algo para que não ultrapasse o limite da tela, levando em conta o tamanho do elemento pai( tipo, se colocar um img no body, ele vai levar em conta o tamanho do body para encaixar a img)
+
+o max-width anda em conjunto com a resolução, pois ele vai até aonde a resolução consegue, se uma imagem for 300x300, ele vai até o tamanho original da imagem
+
+.svg: o svg utiliza código para criar uma imagem, html inclusive, ou seja, dá pra mudar cor, background, etc, além de, caso utiliza width ou height, não ficará borrado
+
+.png e .jpeg são arquivos de leitura, ou seja não em código

@@ -1,0 +1,18 @@
+ao usar margin ou padding, liberamos o uso de top, left, right e bottom, já que permitem definir diferentes valores para cada lado de uma caixa ( box-model )
+
+geralmente, a ordem é sempre a mesma para diversas propriedades:
+
+padding(shorthand): top/bottom right/left
+margin(shorthand): top right bottom left
+
+padding: 20px(top right) 40(bottom left)
+
+pra colocar uma borda em um lado especifico: utiliza-se border-(o lado), tipo border-bottom
+
+para aumentar a grossura, usa-se o border-width
+
+writing-mode: mudar modo de escrita
+
+margin-block-start: é em relação ao começo da escrita
+
+margin-top: é em relação ao topo da escrita

@@ -1,0 +1,19 @@
+podemos influenciar no fluxo do elemento com position, o padrão é static
+
+position: fixed;
+
+fixa o elemento na tela.
+
+para definir a posição do elemento, utiliza-se top, bottom, left,right.
+
+esses elementos só funcionam com o position modificado
+
+position relative: ele fica relativo ao local em que o elemento está.
+
+position: absolute tira o elemento do fluxo normal, e também passa a não ocupar mais o espaço que ele estava ocupando, passando a posicionar o elemento de acordo com a tela, não mais com o elemento pai
+
+em casos de o elemento filho sumir, basta definir o elemento pai como position relative.
+
+só se utiliza em casos especificos, já que se utilzaa mais o flexbox e o grid
+
+z-index: modifica a camada do elemento, tipo se tiver um nome em cima do outro, definindo um elemento como 1 e outo 0, o elemento 1 ficará sobreposto

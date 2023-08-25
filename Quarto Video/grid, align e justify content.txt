@@ -1,0 +1,63 @@
+display grid: faz com que seja possivel definir colunas e linhas para organizarmos os elementos que estiverem dentro do grid.
+
+(quando vc coloca display grid em um elemento pai, voce muda totalmente o comportamento dos filhos em relação ao pai e o do pai em relação aos filhos)
+
+por padrão o grid só possui uma colunas
+
+para definir o número de colunas utiliza-se:
+
+grind-template-columns: [tamanho da primeira coluna] [tamanho da segunda coluna] e assim sucessivamente ;
+
+para separar margens no grid, utiliza-se o gap, já que ele cria margem pros lados
+
+gap: [tamanho];
+
+a unidade de medida ideal é fr (unidade fracionaria), principalmente para grid-template-columns
+
+o grid faz com que as margens parem de colidir, já que ele defini cada espaçamento para um item único
+
+------------------
+
+guia css grid
+
+guia origamid: origamid.com/projetos/grid
+
+guia origamid completo: origamid.com/projetos/css-grid-layout-guia-completo
+
+grid malvem: grid.malven.co ( desatualizado )
+
+css tricks: css-tricks.com/snippets/css/complete-css-grid
+---------------------------
+align e justify content
+
+align-content: serve para distribuir as colunas no grid ( faz na vertical )
+
+(start:começo, center:meio, end:fim, stretch: alargar, space-between(coloca espaçamento entre os itens), space-around(tenta coloca espaçamento entre o começo, meio e o final), space-evenly(tenta criar espaçamento mais iguais entre os cantos))
+
+justify-content: distribui as colunas no grid de forma horizontal
+
+place-content: é um atalho para align e justify
+ex:
+place-content: space-evenly
+
+-----------------
+
+grid column: define a coluna no qual o item ficará
+
+grid-column: [coluna] / [row]
+
+pode ser 1, 2 e etc
+
+o -1 pode ser usado caso nao tenha conhecimento da quantidade de colunas, e queria ocupar todas as colunas
+
+coloque: 1/2 (exemplo) para definir se ela vai de um até a terceira coluna, o span serve para expandir a partir da coluna que ele nasceu (ex: span 2, vai da coluna que ele nasceu até a segunda coluna)
+
+------------
+
+align e justify itens
+
+align-itens: alinha os itens, o que define o alinhamento central, é o elemento maior, ambos se alinham a ex:centro com center
+
+align-self: alinha o item especificamente
+
+place-items: [align-itens] [justify-items]

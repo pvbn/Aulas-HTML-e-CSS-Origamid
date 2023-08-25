@@ -1,0 +1,3 @@
+o uso mais comum de listas é na marcação de blocos de nav, pois um menu é uma lista de links(utiliza-se ul, e li com a)
+
+não é obrigatorio o uso de listas, mas é uma boa para acessibilidade de leitores de tela.
