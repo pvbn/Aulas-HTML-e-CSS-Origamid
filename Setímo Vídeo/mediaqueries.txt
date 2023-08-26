@@ -1,0 +1,11 @@
+@media gera um bloco de código que só será ativado caso a condição entre parênteses seja verdadeira.
+
+@media (max-width:500px) - abaixo de 500px
+
+@media (min-width:600px) - acima de 600px
+
+@media (min-width:800px) and (max-width:900px) - aentre 800px e 900px
+
+tamanho tem que ser unidade fixa, tipo px
+
+para mais tipos de media queries, ver: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries

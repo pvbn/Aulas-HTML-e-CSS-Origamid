@@ -1,0 +1,13 @@
+um layout responsivo se adapta a diferentes tipos/tamanhos de teal e preferencias do usuario
+
+Tamanhos: unidades relativas como %, vw, fr são mais utilizadas.
+
+Media Queries: Código será ativado de acordo com o tamanho da tela. Alterar o layout, esconder itens e adicionar funcionalidades.
+
+Flexbox e grid: manipulamos o flexbox e o grid para adaptar o cónteudo.
+
+Tipo de tela: temos que levar em consideração a operação do site apenas com o dedo.
+
+meta viewport - é essencial para garantir com que o HTML/CSS lide de forma correta com telas de alta densidade. Ela normaliza o PX do css.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

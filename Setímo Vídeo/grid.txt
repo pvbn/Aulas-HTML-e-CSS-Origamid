@@ -1,0 +1,13 @@
+tecnica que pode ser utilizada para deixar o grid responsivo sem media querie
+
+repeat(auto-fit) - o repeat com auto-fit irá gerar o total de colunas que forem necessárias para preencher a área
+
+ex: grid-template-columns: repeat(auto-fit,150px);
+
+utiliza unidades fixas tipo px, não 1fr ou 100%.
+
+grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+
+para casos com minmax, pode-se utilizar 1fr.
+
+order: muda a ordem de uma classe em media querie especifica, parecido com o grid-row.

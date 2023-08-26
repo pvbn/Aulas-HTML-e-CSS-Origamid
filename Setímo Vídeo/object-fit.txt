@@ -1,0 +1,5 @@
+Preenche o elemento pai com a imagem, sem distorcer a mesma.
+
+object-fit - funciona como o background-size. contém valores como cover, contain, fill.
+
+object-position - posiciona o objeto, indicando como ele deve ser cortado. top left, top center
