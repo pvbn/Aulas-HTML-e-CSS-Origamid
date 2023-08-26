@@ -1,0 +1,15 @@
+rem: unidade relativa ao tamanho da fonte do elemento raiz html. Na maioria dos browsers com configuração padrão 
+
+1rem = 16px.
+
+o rem se adapta ao tamanho da fonte do navegador.
+
+vh: view port height, seria a altura do tamanho da tela visivel
+
+vw: view port width, largura do tamanho da tela visivel
+
+calc() é uma função de css que permite fazer calculos com as unidades, retorna um valor com base no calculo feito entre os (). faz possivel a combinação de unidades.
+
+ex: calc(100vw/3) - representa 1/3 da tela
+
+calc(100% - 20px) - remove 20px de 100%

@@ -1,0 +1,26 @@
+background - pode receber outros valores além de cores solidas, imagens e gradients
+
+34:48
+
+
+--------------------
+( anotaçoes do copilot lol )
+
+<h1>Background</h1>
+        <p>Background é o fundo de uma página web. É possível alterar a cor, a imagem e a posição do background.</p>
+        <p>Para alterar a cor do background, basta usar a propriedade background-color. Para alterar a imagem, basta usar a propriedade background-image. Para alterar a posição da imagem, basta usar a propriedade background-position.</p>
+        <p>É possível usar a propriedade background para alterar a cor, a imagem e a posição do background de uma só vez.</p>
+        <p>É possível usar a propriedade background-repeat para repetir a imagem do background.</p>
+        <p>É possível usar a propriedade background-attachment para fixar a imagem do background.</p>
+        <p>É possível usar a propriedade background-size para alterar o tamanho da imagem do background.</p>
+        <p>É possível usar a propriedade background-origin para alterar a origem da imagem do background.</p>
+        <p>É possível usar a propriedade background-clip para alterar a área de recorte da imagem do background.</p>
+        <p>É possível usar a propriedade background-blend-mode para alterar o modo de mesclagem da imagem do background.</p>
+        <p>É possível usar a propriedade background-attachment para fixar a imagem do background.</p>
+        <p>É possível usar a propriedade background-origin para alterar a origem da imagem do background.</p>
+        <p>É possível usar a propriedade background-clip para alterar a área de recorte da imagem do background.</p>
+        <p>É possível usar a propriedade background-blend-mode para alterar o modo de mesclagem da imagem do background.</p>
+        <p>É possível usar a propriedade background-attachment para fixar a imagem do background.</p>
+        <p>É possível usar a propriedade background-origin para alterar a origem da imagem do background.</p>
+        <p>É possível usar a propriedade background-clip para alterar a área de recorte da imagem do background.</p>
+        <p>É possível usar a propriedade background-blend-mode para alterar o modo de mesclagem da imagem do background.</p>    

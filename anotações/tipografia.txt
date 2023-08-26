@@ -1,0 +1,1 @@
+existem diversas propriedades utilizadas para a tipografia, as principais são font e text

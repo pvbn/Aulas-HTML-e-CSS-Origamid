@@ -1,0 +1,25 @@
+Estado:
+
+permite definirmos o estilo de diferentes estados do elemento html.
+
+:hover - mouse por cima
+
+:focus - elemento em foco, usando o teclado ( tab )
+
+:active - elemento ativo, quando clicado
+
+:visited - elemento(links geralmente ) já visitado.
+
+Seletores - pode selecionar, de uma forma mais específica, os elementos html.
+
+:first-child - seleciona o primeiro elemento.
+
+:last-child - seleciona o último elemento.
+
+:nth-child(4) - 4 (quarto elemento), even (pares), odd(ímpares), 3n(de 3 em 3.)
+
+:not() - seleciona todos os elementos, exceto o que está dentro do parênteses.
+
+ex: :nth(:first-child, :lost-child, :nth-child(4), .terceiro)
+
+mais pseudoclasses: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes

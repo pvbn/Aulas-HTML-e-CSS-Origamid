@@ -1,0 +1,13 @@
+::before e ::after
+
+criam elementos HTML com base no seletor
+
+- content : definir um conteudo para o elemento é essencial para ele existir, mesmo que esteja vazio
+
+- uso: são utilizados para decorarmos o conteúdo, com eles evitamos o uso de elementos desnecessários no HTML.
+
+::first-line e ::first-letter
+
+::first-line - seleciona a primeira linha do elemento
+
+::first-letter - seleciona a primeira letra do elemento
