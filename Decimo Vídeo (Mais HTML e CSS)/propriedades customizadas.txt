@@ -1,0 +1,11 @@
+propriedades customizadas - também conhecidas como variavéis de css (custom properties), permite definirmos valores no CSS que podem ser reutilizados no nosso código.
+
+A propriedade é herdada pelos elementos filhos. É comum definirmos as mesmas nos elementos :root ou html, assim teremos acesso à propriedade em todos os elementos do site.
+
+--roxo: #caf - define uma propriedade customizada
+
+var(--roxo) - A função var utiliza uma propriedade customizada.
+
+prefers-color-scheme - a @media prefers-color-scheme irá executar o código css conforme a preferência de tema do usuário. Funciona da mesma forma que o @media queria com o max-width, porém agora em relação ao modo escuro (dark) ou claro (light)
+
+(dica: caso o usuario nao possua a opção de troca de tema, primeiro deixa o :root com as cores escura ou clara, e depois aplique o media prefers-color-scheme com a cor inversa para o usuario escolher, para herdar.)  

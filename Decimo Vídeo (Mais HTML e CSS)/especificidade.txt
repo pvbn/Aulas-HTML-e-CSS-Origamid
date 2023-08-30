@@ -1,0 +1,7 @@
+especificidade de seletores - a ordem do elemento só importa se eles possuírem a mesma especificidade. Caso contrário o seletor mais específico irá prevalecer.
+
+id - (1, 0, 0) primeiro nível
+
+classes, atributos e pseudo classes - (0, 1, 0) segundo nível
+
+elementos e pseudo elementos - (0, 0, 1) terceiro nível

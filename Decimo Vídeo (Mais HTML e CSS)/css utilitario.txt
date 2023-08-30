@@ -1,0 +1,19 @@
+Uso de classes com propriedades pré-definidas, geralmente utilizado em bibliotecas de CSS como Bootstrap e Tailwind.
+
+exemplo: 
+
+<h1 class=" p-1 p-2 border-red"> delcica </h2>
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+basicamente, é fazer uma classe para cada propriedade que você quer utilizar, e depois chamar essas classes no HTML.

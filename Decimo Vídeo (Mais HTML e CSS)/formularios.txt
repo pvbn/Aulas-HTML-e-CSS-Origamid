@@ -1,0 +1,73 @@
+form - a tag form é utilizada para envolver os campos de um formulário.
+
+26:46
+
+action="" - o atributo action indica o arquivo/url que será ativado ao enviarmos o formulário.
+
+method="" - POST(envio de informações) e GET(busca de informações).
+
+alguns atributos:
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome"> - para Nome
+        
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha"> - para senha(mas não fica seguro, já que aparece se salva as informações na pagina, fica na url)
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required> - email (o required é para o usuario nao deixar o espaço em branco)
+        
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade"> - idade ( number é um tipo para inserção de apenas números)
+        
+        <label for="data">Saída do Hotel</label>
+        <input type="date" name="data" id="data"> - para data, insere um calendario no campos
+
+placeholder="" - Texto quando o formulário está vazio.(dica de preenchimento.)
+
+required - define o input como obrigatorio
+
+disabled - desativa o input
+
+minleght e maxleght - minimo e maximo de caracteres
+
+value - valor inicial do formulario
+
+exemplo de checkbox e radio:
+
+<div class="checkbox">
+            <input type="checkbox" name="termos" value="preenchido" id="termos">
+            <label for="termos">Aceito os termos da empresa</label>
+        </div>
+        
+        <div class="checkbox">
+            <input type="checkbox" name="anuncio" value="anuncio" id="anuncio">
+            <label for="anuncio">Desejo receber anúncios.</label>
+        </div>
+
+
+<p>Entrega:</p>
+        <div class="radio">
+            <input type="radio" name="retirada" value="retirada" id="retirada">
+            <label for="retirada">Desejo receber anúncios.</label>
+        </div>
+        <div class="radio">
+            <input type="radio" name="retirada" value="retirada" id="retirada">
+            <label for="entrega">Entrega em casa.</label>
+        </div>
+        
+        <p>Futuro:</p>
+        <div class="radio">
+            <input type="radio" name="retirada2" value="retirada2" id="retirada2">
+            <label for="retirada2">Desejo receber anúncios.</label>
+        </div>
+        <div class="radio">
+            <input type="radio" name="entrega2" value="entrega2" id="entrega2">
+            <label for="entrega2">Entrega em casa.</label>
+        </div>
+
+select - campo de seleção com diferentes opções (option)
+
+option - opções do campo de seleção
+
+text-area - caixa de texto com colunas(nao muito usada, devido o css) e linhas, não herda tipografia
